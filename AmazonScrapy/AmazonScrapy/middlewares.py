@@ -76,7 +76,7 @@ class ProxyMiddleware(object):
             "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0", ]
 
     def get_ip(self, spider):
-        urlip = 'http://dynamic.goubanjia.com/dynamic/get/42db2545aa8eb940cd4f310407e1189c.html'
+        urlip = 'http://dynamic65555555555504066666666666689c.html'
         s = requests.Session()
         # 设置重试次数
         s.mount('http://', HTTPAdapter(max_retries=5))
